@@ -1,0 +1,17 @@
+# vi: ft=sshconfig
+
+# Include other config files, for local system or system-specific ones.
+#
+# KEEP THIS LINE AT THE TOP; otherwise it's conditional by the first `Host`
+# directive.
+#
+# inspired by
+# https://github.com/pgilad/dotfiles/blob/master/ssh/config
+# https://github.com/sobolevn/dotfiles/blob/master/config/ssh_config
+
+Include config.d/*
+
+Host *
+  UseKeychain yes
+  AddKeysToAgent yes
+  IdentityFile ~/.ssh/id_rsa

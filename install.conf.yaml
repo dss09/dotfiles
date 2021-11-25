@@ -1,0 +1,27 @@
+- defaults:
+    link:
+      relink: true
+
+- clean: ['~']
+
+- create:
+    - ~/.config
+    - ~/.local/bin
+    - ~/.ssh:
+      mode: 0700
+    - ~/src
+
+- link:
+    # Git:
+    ~/.gitconfig: config/gitconfig
+    ~/.gitignore_global: config/gitignore
+    ~/.gitattributes_global: config/gitattributes
+
+    # Editors:
+    ~/.editorconfig: config/editorconfig
+
+    # SSH:
+    ~/.ssh/config:
+      path: config/ssh_config
+      force: true
+      create: true
