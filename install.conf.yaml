@@ -8,9 +8,9 @@
     - ~/.config
     - ~/.local/bin
 - create:
-    - ~/.ssh:
-        mode: 0700
-    - ~/src:
+    ~/.ssh:
+      mode: 0700
+    ~/src:
 
 - link:
     # Git:
