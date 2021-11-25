@@ -1,7 +1,17 @@
 version: 2
+
+registries:
+  github:
+    type: git
+    url: https://github.com
+    username: x-access-token
+    password: ${{secrets.MY_GITHUB_PERSONAL_TOKEN}}
+
 updates:
 - package-ecosystem: gitsubmodule
   directory: "/"
+  registries:
+    - github
   schedule:
     interval: daily
     time: "02:00"
