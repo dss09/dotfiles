@@ -7,9 +7,10 @@
 - create:
     - ~/.config
     - ~/.local/bin
+- create:
     - ~/.ssh:
-      mode: 0700
-    - ~/src
+        mode: 0700
+    - ~/src:
 
 - link:
     # Git:
