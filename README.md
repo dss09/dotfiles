@@ -7,6 +7,7 @@ Bootstrap is based on the awesome [dotbot](https://github.com/anishathalye/dotbo
 ```sh
 git clone https://github.com/smalllark/dotfiles .dotfiles
 cd .dotfiles
+git clone https://github.com/smalllark/dotfiles-personal
 ./install
 ```
 
