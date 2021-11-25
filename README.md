@@ -23,3 +23,4 @@ git clone https://github.com/smalllark/dotfiles-personal
 * https://github.com/cvuorinen/dotfiles
 * https://github.com/pgilad/dotfiles
 * https://github.com/tz4678/dotfiles
+* https://github.com/cowboy/dotfiles
