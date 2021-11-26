@@ -37,7 +37,6 @@ brew "p7zip"
 brew "peco"
 brew "pipenv"
 brew "pipx"
-brew "poetry"
 brew "postgresql", restart_service: true
 brew "pwgen"
 brew "redis", restart_service: true
@@ -73,7 +72,6 @@ cask "notion"
 cask "nrlquaker-winbox"
 cask "osxfuse"
 cask "pycharm"
-cask "riot"
 cask "skype"
 cask "speedcrunch"
 cask "spotify"
@@ -83,21 +81,15 @@ cask "tunnelblick"
 cask "virtualbox"
 cask "virtualbox-extension-pack"
 cask "visual-studio-code"
-cask "vivaldi"
 cask "vlc"
 cask "xmind"
 cask "yandex-disk"
-mas "Evernote", id: 406056744
-mas "GarageBand", id: 682658836
-mas "iMovie", id: 408981434
-mas "Keynote", id: 409183694
+mas "Developer", id: 640199958
 mas "LiteManager", id: 1113436889
 mas "Microsoft Remote Desktop", id: 1295203466
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
 mas "Slack", id: 803453959
 mas "Telegram", id: 747648890
 mas "The Unarchiver", id: 425424353
-mas "Trello", id: 1278508951
 mas "WhatsApp", id: 1147396723
+mas "WireGuard", id: 1451685025
 mas "Xcode", id: 497799835

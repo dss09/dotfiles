@@ -11,6 +11,11 @@ git clone https://github.com/smalllark/dotfiles-personal
 ./install
 ```
 
+## Usage
+```
+cd macos && brew bundle dump --force
+```
+
 ## Compiled from
 
 * https://github.com/anishathalye/dotfiles_template
